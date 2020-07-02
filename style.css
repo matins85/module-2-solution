@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+
+
+#testing{
+ background-color: #f1f1f1;
+ color: blue;
+ border: 4px solid black;
+ padding: 10px;
+ overflow: hidden;
+ float: left;
+ width: 32%;
+ margin: 0.5%;
+ position: relative;
+ font-size: 1.5em;
+
+}
+
+div.testng{  
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 5px;
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+#num1{
+  background-color: burlywood;
+  color: black;
+  font-size: 1.5em;
+  
+}
+
+#num2{
+  background-color: indigo;
+  color: white;
+  font-size: 1.5em;
+}
+
+#num3{
+  background-color: blueviolet;
+  color: black;
+  font-size: 1.5em;
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+
+  #testing{
+    background-color: #f1f1f1;
+    color: blue;
+    border: 4px solid black;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    font-size: 1.5em;
+   
+   }
+  
+}
+
+
+
+/* tablet */
+/* @media screen and (max-width: 900px) and (min-width: 600px) */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  #testing{
+    background-color: #f1f1f1;
+    color: blue;
+    border: 4px solid black;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: 49%;
+    position: relative;
+    font-size: 1.5em;
+   
+   }
+   
+
+}
+
+/* desktop */
+@media screen and (min-width: 992px) {
+  #testing{
+    background-color: #f1f1f1;
+    color: blue;
+    border: 4px solid black;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: 32%;
+    margin: 0.5%;
+    position: relative;
+    font-size: 1.5em;
+   
+   }
+  
+}
